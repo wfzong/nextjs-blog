@@ -34,6 +34,11 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}><Link href={`/list`}>List</Link></h2>
+        
+      </section>
     </Layout>
   )
 }
